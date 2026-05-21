@@ -1,0 +1,94 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: #050505;
+
+}
+
+nav > div > a {
+	color: #ff9700;
+	text-decoration: none;
+}
+
+
+.landing-container {
+	max-height: 100%;
+	background: #050505;
+	padding: 10%;
+
+}
+
+.landing-row {
+	padding-left: 8%;
+	padding-right: 8%;
+	align-items: center;
+	justify-content: center;
+}
+
+.landing-col {
+	
+}
+
+.landing-col > .landing-name, .landing-description {
+	font-family: "Inter", sans-serif;
+	color: #ffffff;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.landing-col > .landing-job-position {
+	font-family: "Hanken Grotesk", sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ff9700;
+}
+
+.landing-col > .landing-description {
+	font-size: 17px;
+	padding-right: 5%;
+}
+
+.view-work {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: #ff9700;
+	border-radius: 12px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.get-in-touch {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 12px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.landing-img {
+	max-height: 60%;
+	max-width: 60%;
+	border-radius: 25px;
+}
+
+.projects-section {
+	background-color: #050505;
+}
