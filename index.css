@@ -11,8 +11,19 @@ nav {
 }
 
 nav > div > a {
-	color: #ff9700;
+	color: #ff9700 !important;
 	text-decoration: none;
+}
+
+nav > div > div > .hire-me {
+	text-decoration: none;
+	background-color: #ff9700;
+	color: #ffffff;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
 }
 
 
@@ -26,8 +37,8 @@ nav > div > a {
 .landing-row {
 	padding-left: 8%;
 	padding-right: 8%;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 }
 
 .landing-col {
@@ -90,5 +101,225 @@ nav > div > a {
 }
 
 .projects-section {
+	background-color: #005FDB;
+	justify-content: center;
+}
+
+.projects-title-desc-sec {
+	font-family: "Hanken Grotesk", sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.projects-title-desc-sec > h2 {
+	color: #ffffff;
+	font-size: 40px;
+	padding-bottom: 20px;
+	font-weight: 800;
+}
+
+.projects-title-desc-sec > p {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.projects-row{
+	justify-content: center;
+	display: flex;
+	column-gap: 30px;
+	grid-row-gap: 30px;
+	padding: 40px;
+}
+
+.projects-col {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding-top: 10px;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+.projects-col img {
+	max-width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.projects-col h2 {
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 600;
+}
+
+.projects-col p {
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 400;
+}
+
+.tools-container {
+	background-color: #eb3800;
+	font-family: "Hanken Grotesk", sans-serif;
+	padding-bottom: 40px;
+}
+
+.tools-container .row {
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.tools-container .tools-row	{
+	display: flex;
+	column-gap: 30px;
+	grid-row-gap: 30px;
+	padding: 40px;
+}
+
+.tools-frontend > h2 {
+	font-family: "Hanken Grotesk", sans-serif;
+	font-weight: 700;
+}
+
+.tools-mern > h2 {
+	font-family: "Hanken Grotesk", sans-serif;
+	font-weight: 700;
+}
+
+.tools-other-tools > h2 {
+	font-family: "Hanken Grotesk", sans-serif;
+	font-weight: 700;
+}
+
+.tools-container .tools-title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.tools-title > h3 {
+	font-weight: 600;
+}
+
+.tools-title > h1 {
+	font-weight: 800;
+}
+
+.tools-container .tools-frontend {
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.tools-frontend img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.tools-mern img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.tools-other-tools img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.tools-container .tools-mern {
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.tools-container .tools-other-tools {
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.contact-form {
 	background-color: #050505;
+	max-height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.contact-form .row {
+	padding: 40px; 
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form .row div > h1 {
+	color: #ffffff;
+	padding-bottom: 10px;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.contact-form .row .email-me {
+	padding-left: 35px;
+	color: #ffffff;
+}
+
+.contact-form .row .my-location {
+	padding-left: 35px;
+	color: #ffffff;
+}
+
+.contact-form .row .email-me > h4 {
+	color: #ff9700;
+	font-weight: 700;
+}
+
+.email-me > p {
+	font-weight: 600;
+}
+
+.my-location > p {
+	font-weight: 600;
+}
+
+.contact-form .row .my-location > h4 {
+	color: #ff9700;
+	font-weight: 700;
+}
+
+.contact-field {
+	background-color: #171717;
+	border-radius: 15px;
+}
+
+.contact-field form {
+	padding: 30px;
+	grid-row-gap: 20px;
+}
+
+.contact-field label {
+	color: #ffffff;
+}
+
+.contact-field .btn-form {
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: #ff9700;
+	border-radius: 12px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
 }

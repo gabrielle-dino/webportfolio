@@ -29,80 +29,158 @@
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		      <div class="navbar-nav ms-auto navbar-options">
-		        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
-		        <a class="nav-link" href="#projects">My Projects</a>
-		        <a class="nav-link" href="#tools">Tools</a>
-		        <a class="nav-link" href="#contact">Contact</a>
-		      </div>
+				<div class="navbar-nav ms-auto navbar-options">
+					<a class="nav-link active" aria-current="page" href="#landing">Home</a>
+					<a class="nav-link" href="#projects">My Projects</a>
+					<a class="nav-link" href="#tools">Tools</a>
+					<a class="nav-link" href="#contact">Contact</a>
+				</div>
+		        <a href="CV - Gabrielle Angelo Dino (2026).pdf" type="button" class="hire-me">Hire Me</a>
 		    </div>
 		  </div>
 		</nav>
 	<!-- Navbar End -->
 
 	<!-- Landing Start -->
-		<div class="container-fluid landing-container">
+		<div class="container-fluid landing-container" id="landing">
 			<div class="row landing-row">
-				<div class="col-sm-12 col-md-6 col-lg-6 landing-col">
+				<div class="col-sm-12 col-md-6 col-lg-5 landing-col">
 					<h2 class="landing-name">I'm Gabrielle Angelo Diño</h2>
-					<h1 class="landing-job-position">Full Stack<br>Web Developer</h1>
+					<h1 class="landing-job-position">Full Stack Web Developer</h1>
 					<p class="landing-description">Passionate about building scalable web applications and clean APIs. I bridge the gap between complex backend logic and intuitive frontend experiences.</p>
 					<div class="row">
-						<div class="col-sm-6 col-md-6 col-lg-3">
+						<div class="col-sm-3 col-md-6 col-lg-3">
 							<a class="view-work" href="#projects" type="button">View Work</a>
 						</div>
-						<div class="col-sm-6 col-md-6 col-lg-3">
+						<div class="col-sm-3 col-md-6 col-lg-3">
 							<a class="get-in-touch" href="#contact" type="button">Get in Touch</a>	
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-6">
-					<img src="./images/gabrielle_grad_pic.jpg" class="landing-img">
+				<div class="col-sm-12 col-md-6 col-lg-5">
+					<img src="./images/gabrielle_grad_pic.jpg" class="landing-img" alt="Gabrielle Diño's Grad Pic">
 				</div>
 			</div>
 		</div>
 	<!-- Landing End -->
 
 	<!-- Projects Start -->
-		<div class="container-fluid projects-section">
-			
-			<h2>Selected Works</h2>
-			<p>A collection of API architectures, full-stack applications, and UX prototypes built with performance in mind.</p>
+		<div class="container-fluid projects-section" id="projects">
+			<div class="row projects-row">
+				<div class="col-12 projects-title-desc-sec">
+					<h2>Selected Works</h2>
+					<p>A collection of API architectures, full-stack applications, and UX prototypes built with performance in mind.</p>
+				</div>
+				<!-- Projects Start -->
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/e_commerce_api_documentation.png" alt="E-commerce API Documentation">
+						<h2>E-commerce API Documentation</h2>
+						<p>Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/course booking documentation.png" alt="Course Booking API Documentation">
+						<h2>Course Booking API Documentation</h2>
+						<p>RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/course booking app.png" alt="Course Booking App">
+						<h2>Course Booking App</h2>
+						<p>A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows useres to browse available courses and enroll seamlessly.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/e-commerce app.png" alt="E-commerce App">
+						<h2>E-commerce App</h2>
+						<p>MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilites.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/airline booking system mockup.png" alt="Airline Booking System Mockup">
+						<h2>Airline Booking System Mockup</h2>
+						<p>Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/airline booking.png" alt="Airline Booking System Prototype">
+						<h2>Airline Booking System Prototype</h2>
+						<p>Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
+					</div>
+				<!-- Projects End -->
 
-			<div class="row justify-content-center">
-				<div class="col-sm-12 col-md-2 col-lg-3">
-					<img src="">
-					<h2>E-commerce API Documentation</h2>
-					<p>Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
-				</div>
-				<div class="col-sm-12 col-md-2 col-lg-3">
-					<img src="">
-					<h2>E-commerce API Documentation</h2>
-					<p>Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
-				</div>
-				<div class="col-sm-12 col-md-2 col-lg-3">
-					<img src="">
-					<h2>E-commerce API Documentation</h2>
-					<p>Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
-				</div>
+				<!-- Short Courses Start -->
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/short-courses-placeholder.png" alt="Short Courses Capstone Coming Soon">
+						<h2>Short Courses Capstone</h2>
+						<p>Placeholder for your Short courses capstone project.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/short-courses-placeholder.png" alt="Short Courses Capstone Coming Soon">
+						<h2>Short Courses Capstone</h2>
+						<p>Placeholder for your Short courses capstone project.</p>
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-3 projects-col">
+						<img src="./images/projects photo/short-courses-placeholder.png" alt="Short Courses Capstone Coming Soon">
+						<h2>Short Courses Capstone</h2>
+						<p>Placeholder for your Short courses capstone project.</p>
+					</div>
+				<!-- Short Courses End -->
 			</div>
 		</div>
 	<!-- Projects End -->
 
 	<!-- Tools Start -->
-		<div class="container-fluid">
+		<div class="container-fluid tools-container" id="tools">
 			<div class="row">
-				<div class="col">
-					
+				<div class="col-10 tools-title">
+					<h3>Ecosystem</h3>
+					<h1>Tools & Technologies</h1>
 				</div>
+			</div>
+			<div class="row tools-row">
+				<div class="col-sm-10 col-md-10 col-lg-3 tools-frontend">
+					<h2>Front End</h2>
+					<img src="./images/tools/frontend-icons.svg" alt="Frontend Tools Icons">
+				</div>
+				<div class="col-sm-10 col-md-10 col-lg-3 tools-mern">
+					<h2>MERN</h2>
+					<img src="./images/tools/mern-icons.svg" alt="MERN Tools Icons">
+				</div>
+				<div class="col-sm-10 col-md-10 col-lg-3 tools-other-tools">
+					<h2>Other Tools</h2>
+					<img src="./images/tools/other-tools-icons.svg" alt="Other Tools Icons">
+				</div>				
 			</div>
 		</div>
 	<!-- Tools End -->
 
 	<!-- Contact Start -->
-		<div class="container-fluid">
+		<div class="container-fluid contact-form" id="contact">
 			<div class="row">
-				
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<h1>Get in Touch</h1>
+					<div class="col-sm-12 col-md-5 col-lg-5 email-me">
+						<h4>Email me</h4>
+						<p>business.gabrielledino@gmail.com</p>
+					</div>
+					<div class="col-sm-12 col-md-5 col-lg-5 my-location">
+						<h4>Location</h4>
+						<p>Tabang, Plaridel, Bulacan</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 contact-field">
+					<form>
+						<div class="mb-3">
+						  <label for="contact-name" class="form-label">Name:</label>
+						  <input type="name" class="form-control" id="contact-name" placeholder="Your name here">
+						</div>
+						<div class="mb-3">
+						  <label for="email-add" class="form-label">Email Address:</label>
+						  <input type="email" class="form-control" id="email-add" placeholder="name@example.com">
+						</div>
+						<div class="mb-3">
+						  <label for="message-area" class="form-label">Message:</label>
+						  <textarea class="form-control" id="message-area" rows="3" placeholder="Type your message here..."></textarea>
+						</div>
+						<button type="submit" class="btn btn-form">Send Message</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	<!-- Contact End -->
